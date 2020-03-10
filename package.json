@@ -1,0 +1,51 @@
+{
+  "name": "toolbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --config build/webpack.dev.config.js --mode development",
+    "build": "webpack --config build/webpack.prod.config.js"
+  },
+  "author": "",
+  "dependencies": {
+    "@tinymce/tinymce-vue": "^3.0.1",
+    "axios": "^0.19.2",
+    "babel-polyfill": "^6.26.0",
+    "element-ui": "^2.13.0",
+    "mockjs": "^1.1.0",
+    "tinymce": "^5.1.6",
+    "vue": "^2.6.11",
+    "vue-router": "^3.1.5",
+    "vuex": "^3.1.2",
+    "vuex-persistedstate": "^2.7.0",
+    "x2js": "^3.4.0",
+	"bpmn-js":"^6.3.2",
+	"bpmn-js-properties-panel":"^0.33.1",
+	"camunda-bpmn-moddle":"^4.4.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.4.2",
+    "file-loader": "^5.0.2",
+    "html-webpack-plugin": "^3.2.0",
+    "less": "^3.10.3",
+    "less-loader": "^5.0.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "sass-loader": "^8.0.0",
+    "sass":"^1.24.0",
+    "fibers":"^4.0.2",
+    "node-sass": "4.13.0",
+    "url-loader": "^3.0.0",
+    "vue-loader": "^15.8.3",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.41.4",
+    "webpack-cli": "^3.3.10",
+    "crypto-js": "^3.1.9-1",
+    "webpack-dev-server": "^3.10.1",
+    "copy-webpack-plugin": "^5.1.1"
+  }
+}
